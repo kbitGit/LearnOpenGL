@@ -1,2 +1,4 @@
 prog: main.cpp
-	g++ -o openGl main.cpp -Wall -lGLEW -lglfw -lGL 
+	g++ -o openGL main.cpp -Wall -lGLEW -lglfw -lGL
+run:
+	DRI_PRIME=1 ./openGL
